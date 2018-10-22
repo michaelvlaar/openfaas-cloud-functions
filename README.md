@@ -17,7 +17,7 @@ This function can be build and run locally but is also published via [OpenFaas C
 
 #### Payload
 
-Example payload with GPS coordinate in Amsterdam and a (square) polygon around Amsterdam.
+Example payload with GPS coordinate in Amsterdam and a (square) polygon around Amsterdam:
 
 **Request**
 ```
@@ -66,7 +66,7 @@ This function can be build and run locally but is also published via [OpenFaas C
 
 ### Payload
 
-An example payload with the GPS coordinate of Amsterdam.
+An example payload with the GPS coordinate of Amsterdam:
 
 **Request**
 ```
