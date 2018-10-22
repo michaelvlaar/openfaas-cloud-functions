@@ -1,0 +1,13 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  google-maps-url:
+    lang: golang-middleware
+    handler: ./google-maps-url
+    image: michaelvlaar/google-maps-url:latest
+  point-in-polygon:
+    lang: golang-middleware
+    handler: ./point-in-polygon
+    image: michaelvlaar/point-in-polygon:latest
