@@ -1,15 +1,15 @@
 package function
 
 import (
+	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"net/http"
-	"encoding/json"
 )
 
 type Location struct {
 	Longitude float32 `json:"longitude"`
-	Latitude float32 `json:"latitude"`
+	Latitude  float32 `json:"latitude"`
 }
 
 func Handle(w http.ResponseWriter, r *http.Request) {
